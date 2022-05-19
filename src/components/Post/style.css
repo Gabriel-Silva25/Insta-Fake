@@ -1,0 +1,91 @@
+.header-post {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+
+
+
+.infos-post {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-post .img-header-post{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+ }
+
+ .img-post {
+     width: 100%;
+     object-fit: cover;
+ }
+
+.footer-post {
+    padding:10px 15px ;
+}
+
+.engajament-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.engajament-post .icons-1 {
+    display: flex;
+    gap: 16px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.like {
+    margin-top: 6px;
+}
+
+.like span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.legenda {
+    margin: 6px 0px 3px;
+}
+
+.legenda strong {
+    font-weight: 500;
+}
+
+.time-post time {
+    font-size: 11px;
+    color: var(--secondary);
+}
+
+.comment {
+    border-top: 1px solid var(--border-secondary);
+    margin-top: 8px;
+    display: flex;
+}
+
+.fake-comment {
+    padding: 15px 0px;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    gap:50px;
+}
+
+
+.comment button {
+    color: var(--quartary);
+    cursor: pointer;
+}
+
+#inputi {
+    font-size: 16px;
+    align-items: center;
+    flex: 1;
+}

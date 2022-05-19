@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    gap: 16px;
+    padding: 15px;
+}
+
+.users-elements {
+    cursor: pointer;
+}
+
+.users-element div {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#c82d8e, #f99d4c);
+}
+
+.image-user-story {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    border: solid #fff;
+    cursor: pointer;
+}
+
+.users-element span {
+    font-size: 13px;
+    cursor: pointer;
+    padding-left:3% ;
+    margin-left: 6%;
+    
+}
